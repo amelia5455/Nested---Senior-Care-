@@ -732,7 +732,9 @@ export default function Home() {
       </div>
 
       {/* HIW CTA */}
-      <div className="hiw-cta" />
+      <div className="hiw-cta">
+        <a href="#" className="btn-primary">Start the calculator <span className="btn-arrow">→</span></a>
+      </div>
 
       {/* WHY NESTED */}
       <div id="why-scroll-outer" style={{position:'relative'}}>
@@ -1045,8 +1047,6 @@ export default function Home() {
         </footer>
       </div>
 
-      {/* FLOATING STICKY CTA */}
-      <a href="#" className="sticky-cta">Start Now</a>
     </>
   );
 }
